@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.10.20)  8 JAN 2019 21:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.10.20)  8 JAN 2019 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,21 +681,65 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [9 <./images/cartoon.png>] [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Runaway argument?
+{\settowidth \labelwidth {\@biblabel {
+! Paragraph ended before \list was complete.
+<to be read again> 
+                   \par 
+l.131 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\thebibliography ...h \labelwidth {\@biblabel {#1}
+                                                  }\leftmargin \labelwidth \...
+l.131 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\thebibliography ... \labelwidth {\@biblabel {#1}}
+                                                  \leftmargin \labelwidth \a...
+l.131 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\thebibliography ...eenumiv {\@arabic \c@enumiv }}
+                                                  \sloppy \clubpenalty 4000 ...
+l.131 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 094E140549418331FF84D0BE1EDFB92D;432.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 7276 strings out of 495028
- 101939 string characters out of 6181496
- 199689 words of memory out of 5000000
- 10364 multiletter control sequences out of 15000+600000
+ 7274 strings out of 495028
+ 101894 string characters out of 6181496
+ 199647 words of memory out of 5000000
+ 10363 multiletter control sequences out of 15000+600000
  10362 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,11n,43p,262b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -709,10 +753,10 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on document.pdf (12 pages, 252297 bytes).
+Output written on document.pdf (12 pages, 248935 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
