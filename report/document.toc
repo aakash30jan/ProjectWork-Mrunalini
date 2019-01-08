@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scope \& Methodology}{6}{subsection.1.1}
+\contentsline {section}{\numberline {2}Literature Review}{7}{section.2}
+\contentsline {section}{\numberline {3}Case study}{8}{section.3}
+\contentsline {section}{\numberline {4}A Sample Section}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Title of Sample Subsection}{9}{subsection.4.1}
+\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}
+\contentsline {section}{\numberline {6}Future Work}{11}{section.6}
